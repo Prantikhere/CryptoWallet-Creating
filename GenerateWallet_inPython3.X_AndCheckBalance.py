@@ -14,10 +14,10 @@ p = multiprocessing.Pool(int(multiprocessing.cpu_count()))
 from ecdsa import SigningKey, SECP256k1
 import sha3
 import urllib
-proxy = {
-    "http":"http://szl2sxj:January@2019@proxy.ups.com:8080",
-    "https":"https://szl2sxj:January@2019@proxy.ups.com:8080"
-}
+#proxy = {
+#    "http":"http://USERID:PASSWORD@proxy.XXX.com:8080",
+#    "https":"https://USERID:PASSWORD@proxy.XXX.com:8080"
+#}
 
 wallets = 0
 balance = '0'
